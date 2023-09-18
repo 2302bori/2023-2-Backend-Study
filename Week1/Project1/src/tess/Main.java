@@ -11,7 +11,7 @@ public class Main {
 
         System.out.println("\n");
 
-        Cat cat = new Cat(); // 다른 동물 하셔도 상관 없습니다!
+        Cat cat = new Cat();
         Dog dog = new Dog();
         Animal[] animals = {cat, dog};
         for (Animal animal : animals) {
